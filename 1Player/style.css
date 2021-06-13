@@ -1,0 +1,165 @@
+.grid{
+    width: 320px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.grid div{
+    height: 30px;
+    width: 30px;
+    margin: 1px;    
+}
+.row{
+    background-color: white;
+}
+.tetromino0{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino1{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino2{
+    background-color: yellow;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino3{
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino4{
+    background-color: purple;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino5{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino6{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+}
+
+.bounceIn {
+    animation-duration: 0.75s;
+    animation-name: bounceIn;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 30%;
+  }
+  @keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9);
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+      -webkit-transform: scale3d(0.97, 0.97, 0.97);
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  body{
+    background-image: url("b.jpg");
+    background-size: cover;
+  }
+
+  .btn:hover{
+    background-color: #2196f3 !important;
+    border-color: #2196f3;
+  }
+  .btn-outline-dark {
+    color: #2196f3;
+    background-color: transparent;
+    background-image: none;
+    border-color: #2196f3;
+    border-radius: 0%;
+    border-width: 3px;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20% !important; /* Could be more or less, depending on screen size */
+}
+
+.aref{
+  color: black;
+}
+
+.aref:hover{
+  color: black;
+  text-decoration: none;
+}
+
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20% !important; /* Could be more or less, depending on screen size */
+}

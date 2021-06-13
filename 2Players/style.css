@@ -1,0 +1,47 @@
+.grid2{
+    width: 320px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.grid2 div{
+    height: 30px;
+    width: 30px;
+    margin: 1px;    
+}
+.tetromino0{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino1{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino2{
+    background-color: yellow;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino3{
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino4{
+    background-color: purple;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino5{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+}
+.tetromino6{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+}
